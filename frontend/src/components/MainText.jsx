@@ -5,7 +5,7 @@ function MainText() {
         <>
             <div className="flex flex-col items-center justify-center ">
 
-                <div className="text-[72px] flex  font-montserrat text-white font-bold text-center leading-none	">
+                <div className="text-[64px] flex  font-montserrat text-white font-bold text-center leading-none	">
                     Perfect Lip Sync for Videos
                     <br />
                 {/* </div>
