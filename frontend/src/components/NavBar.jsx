@@ -3,7 +3,7 @@ import React from 'react'
 function NavBar() {
     return (
         <>
-            <div className='left-0 top-0 w-full flex justify-between text-white p-4 pt-8 absolute'>
+            <div className='left-0 top-0 w-full flex justify-between text-white p-14 pt-8 absolute'>
                 <div className="logo text-2xl font-bold font-montserrat">MetaFrazo</div>
                 <div className=" flex text-base">
                     <div className="text mx-4">Main</div>

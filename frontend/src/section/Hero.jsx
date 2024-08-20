@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import MainText from '../components/MainText'
 import UploadBtn from '../components/UploadBtn'
+import Plates from '../components/Plates'
 
 export default function Hero() {
     return (
@@ -10,6 +11,7 @@ export default function Hero() {
                 <NavBar />
                 <MainText/>
                 <UploadBtn/>
+                <Plates/>
             </div>
         </>
     )
