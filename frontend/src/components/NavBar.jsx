@@ -8,7 +8,7 @@ function NavBar() {
                 <div className=" flex text-base ">
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Main</div>
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]" >About</div>
-                    <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Product</div>
+                    <a href='#products' className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Product</a>
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Price</div>
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Contact</div>
                 </div>
