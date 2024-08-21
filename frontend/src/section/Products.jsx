@@ -8,7 +8,7 @@ function Products() {
                 <div className="text-[64px] font-montserrat font-bold text-white">
                     Bring Your Videos to Life
                 </div>
-                <div className="flex items-center justify-center text-white mt-20">
+                <div className="flex flex-wrap items-center justify-center text-white mt-20">
                     <div className="flex-col hover:scale-105 duration-200 p-4 w-72 h-96 bg-[#181818] rounded-md justify-center items-center flex">
                         <div className="text-[36px]">
                             LipSync
@@ -30,7 +30,7 @@ function Products() {
 
 
                     </div>
-                    <div className="flex-col hover:scale-105 duration-200 mx-20 p-4 w-72 h-96 bg-[#181818] rounded-md justify-center items-center flex">
+                    <div className="flex-col hover:scale-105 duration-200 lg:mx-20 p-4 w-72 h-96 bg-[#181818] rounded-md justify-center items-center flex">
                         <div className="text-[36px]">
                             Create
                         </div>

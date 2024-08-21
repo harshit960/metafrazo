@@ -3,16 +3,16 @@ import React from 'react'
 function NavBar() {
     return (
         <>
-            <div className='left-0 top-0 w-full flex justify-between text-white p-24 pt-8 absolute'>
+            <div className=' left-0 top-0 w-full flex justify-start lg:justify-between text-white lg:p-24 p-10 pt-8 absolute items-center'>
                 <div className="logo text-2xl font-bold font-montserrat cursor-pointer">MetaFrazo</div>
-                <div className=" flex text-base ">
+                <div className="hidden lg:flex text-base ">
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Main</div>
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]" >About</div>
                     <a href='#products' className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Product</a>
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Price</div>
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Contact</div>
                 </div>
-                <div className="flex ">
+                <div className="lg:flex hidden ">
                     <svg className='mx-2 cursor-pointer' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#fff" fill="none">
                         <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
                         <path d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z" stroke="currentColor" stroke-width="1.5" />
