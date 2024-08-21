@@ -3,7 +3,7 @@ import React from 'react'
 function NavBar() {
     return (
         <>
-            <div className=' left-0 top-0 w-full flex justify-start lg:justify-between text-white lg:p-24 p-10 pt-8 absolute items-center'>
+            <div className=' left-0 top-0 w-full flex justify-start lg:justify-between text-white lg:p-24 p-10 lg:pt-8 pt-8 absolute items-center'>
                 <div className="logo text-2xl font-bold font-montserrat cursor-pointer">MetaFrazo</div>
                 <div className="hidden lg:flex text-base ">
                     <div className="text mx-4 cursor-pointer hover:border-b-2 duration-200 border-[#0B47F2]">Main</div>

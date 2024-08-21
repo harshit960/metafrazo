@@ -13,7 +13,7 @@ function Plates() {
                 <div className="lg:absolute transform lg:-translate-x-0 z-0" >
                     <TiktokCard />
                 </div>
-                <div className="lg:absolute transform lg:translate-x-72 z-20 -rotate-[6deg] -translate-y-16 hover:rotate-0 duration-200">
+                <div className="lg:absolute transform lg:translate-x-72 z-20 lg:-rotate-[6deg] rotate-[6deg] lg:-translate-y-16 translate-y-10 hover:rotate-0 duration-200">
                     <YoutubeCard />
                 </div>
             </div>

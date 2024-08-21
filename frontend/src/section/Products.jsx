@@ -4,8 +4,8 @@ import UploadBtn from '../components/UploadBtn'
 function Products() {
     return (
         <>
-            <div id='products' className="h-screen w-full bg-black flex-col flex justify-center items-center">
-                <div className="text-[64px] font-montserrat font-bold text-white">
+            <div id='products' className="relative min-h-screen w-full bg-black flex-col flex justify-center items-center">
+                <div className="lg:text-[64px] text-3xl px-4 text-center font-montserrat font-bold text-white">
                     Bring Your Videos to Life
                 </div>
                 <div className="flex flex-wrap items-center justify-center text-white mt-20">
@@ -30,7 +30,7 @@ function Products() {
 
 
                     </div>
-                    <div className="flex-col hover:scale-105 duration-200 lg:mx-20 p-4 w-72 h-96 bg-[#181818] rounded-md justify-center items-center flex">
+                    <div className="flex-col hover:scale-105 duration-200 lg:mx-20 my-4 p-4 w-72 h-96 bg-[#181818] rounded-md justify-center items-center flex">
                         <div className="text-[36px]">
                             Create
                         </div>
