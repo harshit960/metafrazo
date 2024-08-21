@@ -4,7 +4,7 @@ import UploadBtn from '../components/UploadBtn'
 function Products() {
     return (
         <>
-            <div id='products' className="relative min-h-screen w-full bg-black flex-col flex justify-center items-center">
+            <div id='products' className="mb-14 relative min-h-screen w-full bg-black flex-col flex justify-center items-center">
                 <div className="lg:text-[64px] text-3xl px-4 text-center font-montserrat font-bold text-white">
                     Bring Your Videos to Life
                 </div>

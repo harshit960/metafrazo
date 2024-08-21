@@ -13,7 +13,7 @@ function MainText() {
                     within seconds
 
                 </div>
-                <div className="text-[18px] text-white mt-5 font-montserrat">
+                <div className="lg:text-[18px] text-sm text-center  text-white mt-5 font-montserrat">
                 Create flawless, lip-synced videos effortlessly. 
                 Upload your content, and our AI takes care of the rest.
                 </div>
