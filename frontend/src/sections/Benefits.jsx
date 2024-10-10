@@ -5,7 +5,7 @@ function Benefits() {
     return (
         <>
             <div className=" flex w-full justify-center items-center flex-col py-40">
-                <img src="assets/Union.png" alt="" srcset="" className='absolute w-full -translate-y-[84px] -z-10 mt-96 overflow-hidden' />
+                <img src="assets/Union.png" alt="" srcset="" className='absolute -translate-ys-[14s0px] scale-150 -z-10 mt-96 overflow-hidden' />
 
                 <img src="assets\Benifits.png" alt="" srcset="" className='w-[48px] ' />
                 <div className="text-[40px] font-bold my-6 font-satoshi text-white">Benefits</div>

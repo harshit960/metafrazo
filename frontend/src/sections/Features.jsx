@@ -28,6 +28,7 @@ function Features() {
                                 <div className="text-[24px] font-bold font-satoshi">
                                     Easy Upload
                                 </div>
+                                    <img src="assets/EsyUpload.png" alt="" srcset="" className='w-full max-w-[728px]' />
                                 <div className="text-[18px] font-satoshiMed">
                                     Simple process of uploading content for translation.
                                 </div>
