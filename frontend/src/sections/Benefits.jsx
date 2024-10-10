@@ -4,10 +4,12 @@ import CTAWideBtn from '../components/CTAWideBtn'
 function Benefits() {
     return (
         <>
-            <div className="bg-[#F0F3F6] flex w-full justify-center items-center flex-col py-40">
-                <img src="assets\Benifits.png" alt="" srcset="" className='w-[48px]' />
-                <div className="text-[40px] font-bold my-6 font-satoshi">Benefits</div>
-                <div className="text-[20px] text-center font-satoshiMed">
+            <div className=" flex w-full justify-center items-center flex-col py-40">
+                <img src="assets/Union.png" alt="" srcset="" className='absolute w-full -translate-y-[84px] -z-10 mt-96 overflow-hidden' />
+
+                <img src="assets\Benifits.png" alt="" srcset="" className='w-[48px] ' />
+                <div className="text-[40px] font-bold my-6 font-satoshi text-white">Benefits</div>
+                <div className="text-[20px] text-center font-satoshiMed text-white">
                     Our intuitive platform makes it easy for anyone to create multilingual content, helping you <br />
                     connect with audiences around the world like never before.
                 </div>
@@ -19,26 +21,26 @@ function Benefits() {
                         </div>
                     </div>
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3">
-                    <div className="flex flex-col justify-between items-center h-full p-8">
+                        <div className="flex flex-col justify-between items-center h-full p-8">
                             <div className="text-[24px] font-bold font-satoshi">Global Reach</div>
-                            <img src="assets/map.png" alt="" srcset="" className='w-full'/>
+                            <img src="assets/map.png" alt="" srcset="" className='w-full' />
                             <div className="text-[18px] text-center font-satoshiMed">Expand your audience by making content accessible in multiple languages.</div>
                         </div>
                     </div>
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3">
-                    <div className="flex flex-col justify-between items-center h-full p-8">
+                        <div className="flex flex-col justify-between items-center h-full p-8">
                             <div className="text-[24px] font-bold font-satoshi">User-Friendly</div>
                             <div className="text-[18px] text-center font-satoshiMed">Expand your audience by making content accessible in multiple languages.</div>
                         </div>
                     </div>
                     <div className="w-[540px] h-[408px] bg-white rounded-[32px] m-3">
-                    <div className="flex flex-col justify-between items-center h-full p-8">
+                        <div className="flex flex-col justify-between items-center h-full p-8">
                             <div className="text-[24px] font-bold font-satoshi">Cost-Saving</div>
                             <div className="text-[18px] text-center font-satoshiMed">Expand your audience by making content accessible in multiple languages.</div>
                         </div>
                     </div>
                 </div>
-                <CTAWideBtn />
+                {/* <CTAWideBtn /> */}
             </div>
         </>
     )

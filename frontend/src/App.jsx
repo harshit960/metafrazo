@@ -21,13 +21,13 @@ export default function App() {
     <>
     <Hero/>
     <ShowReel/>
-    <PreTest/>
+    {/* <PreTest/> */}
     <Testimonials/>
     <Features/>
-    <Guide/>
+    {/* <Guide/> */}
     <Benefits/>
     <Reviews/>
-    <Prices/>
+    {/* <Prices/> */}
     <div className="h-[50vh] w-full bg-[#F0F3F6]"></div>
     <FAQ/>
     <Email/>

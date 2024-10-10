@@ -10,12 +10,12 @@ function FAQ() {
                 <div className="text-[56px] font-bold my-6 font-satoshi">Questions & Answers</div>
                 <div className="text-[20px] text-center font-satoshiMed">Find answers to common questions about MetaFrazo. We’ve got you covered on everything <br /> from how the platform works to tips for getting the best results.</div>
                 <div className="flex flex-col w-full items-center justify-center mt-16 space-y-6">
-                    <Question/>
-                    <Question/>
-                    <Question/>
-                    <Question/>
-                    <Question/>
-                    <Question/>
+                    <Question title="What sets MetaFrazo apart from other translation services?"/>
+                    <Question title="What languages does MetaFrazo support?"/>
+                    <Question title="How secure is my content on MetaFrazo?"/>
+                    <Question title="How can I get started with using MetaFrazo?"/>
+                    <Question title="Can MetaFrazo handle large-scale translation projects for enterprises?"/>
+                    
                 </div>
             </div>
 

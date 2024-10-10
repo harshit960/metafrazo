@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
         <>
-            <div className="bg-[#0E0E0C] w-full flex p-48 pt-16 pb-0 font-satoshiMed text-white justify-between items-">
+            <div className="bg-[#0E0E0C] rounded-t-3xl w-full flex p-48 pt-16 pb-0 font-satoshiMed text-white justify-between items-">
                 <div className="flex basis-1/3 flex-col space-y-6">
                     <img src="assets/logo.png" alt="" className='w-[352px]' />
                     <div className="text-[14px] font-satoshiMed">
