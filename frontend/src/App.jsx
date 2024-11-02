@@ -28,7 +28,7 @@ export default function App() {
     <Benefits/>
     <Reviews/>
     {/* <Prices/> */}
-    <div className="h-[50vh] w-full bg-[#F0F3F6]"></div>
+    <div className="h-[0vh] w-full bg-[#F0F3F6]"></div>
     <FAQ/>
     <Email/>
     <CTA/>

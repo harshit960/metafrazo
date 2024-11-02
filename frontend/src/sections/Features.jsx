@@ -28,7 +28,7 @@ function Features() {
                                 <div className="text-[24px] font-bold font-satoshi">
                                     Easy Upload
                                 </div>
-                                    <img src="assets/EsyUpload.png" alt="" srcset="" className='w-full max-w-[728px]' />
+                                    <img src="assets/EsyUpload.png" alt="" srcset="" className='w-60 max-w-[728px]' />
                                 <div className="text-[18px] font-satoshiMed">
                                     Simple process of uploading content for translation.
                                 </div>
@@ -50,12 +50,13 @@ function Features() {
                 </div>
                 <div className="flex w-4/5 mt-[24px]">
                     <div className="grow bg-white h-[622px] rounded-[32px]">
-                        <div className="flex justify-between flex-col items-center p-6 h-full">
+                        <div className="flex justify-between flex-col items-center p-0 h-full">
 
-                            <div className="text-[24px] font-bold font-satoshi">
+                            <div className="text-[24px] font-bold font-satoshi p-6">
                             On-Screen Text Translation
                             </div>
-                            <div className="text-[18px] font-satoshiMed">
+                            <img src="assets/OnScrrenText.png" alt="" srcset="" className='max-h-[435px]' />
+                            <div className="text-[18px] font-satoshiMed p-6">
                             Translates any text on screen into the target language, ensuring consistency and accuracy.
                             </div>
                         </div>
@@ -67,6 +68,7 @@ function Features() {
                             <div className="text-[24px] font-bold font-satoshi">
                             Lip-Sync Technology
                             </div>
+                            <img src="assets/sync.png" alt="" srcset="" className='w-[182px] max-w-[728px]' />
                             <div className="text-[18px] font-satoshiMed">
                             AI-driven lip-syncing to keep the translated speech in sync with the original video.
                             </div>
