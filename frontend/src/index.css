@@ -55,4 +55,46 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+
+
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0px 0px 25px 10px rgba(50, 119, 248, 0.15);
+    }
+    50% {
+      box-shadow: 0px 0px 30px 15px rgba(50, 119, 248, 0.25);
+    }
+  }
+  
+  .pulse-animation {
+    animation: pulse 2s infinite;
+  }
+  
+
+  .button {
+    background: linear-gradient(0deg, #0A47F2 79.79%, #B5C9FF 122.34%),
+                radial-gradient(342.89% 359.97% at 49.74% 48.94%, rgba(10, 71, 242, 0.5) 0%, rgba(181, 201, 255, 0.5) 100%);
+    box-shadow: 0px 0px 25px 10px #3277F826;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background: linear-gradient(0deg, #0A47F2 79.79%, #B5C9FF 122.34%),
+                radial-gradient(342.89% 359.97% at 49.74% 48.94%, rgba(10, 71, 242, 0.5) 0%, rgba(181, 201, 255, 0.5) 100%),
+                linear-gradient(0deg, #0A47F2, #0A47F2),
+                radial-gradient(50% 50% at 50% 50%, #D763FF 0%, rgba(10, 71, 242, 0) 100%);
+    /* border: 6px solid; */
+    border-image-source: linear-gradient(135deg, #D763FF 0%, #0A47F2 50%, #8A88FF 100%);
+    box-shadow: 5px 5px 12px 10px rgba(138, 136, 255, 0.2), -5px -5px 12px 0px rgba(215, 99, 255, 0.2);
+  }
+  
+  .button:focus {
+    background: rgba(0, 30, 114, 1);
+    /* border: 6px solid; */
+    border-image-source: linear-gradient(294.89deg, rgba(215, 99, 255, 0.75) 15.85%, rgba(10, 71, 242, 0.75) 50%, rgba(138, 136, 255, 0.75) 84.15%);
+    outline: none; /* removes default focus outline */
+  }
+  
   

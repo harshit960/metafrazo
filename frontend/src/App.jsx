@@ -13,6 +13,7 @@ import ShowReel from "./sections/ShowReel";
 import Testimonials from "./sections/Testimonials";
 import './index.css'
 import LocomotiveScroll from "locomotive-scroll";
+import ForEnterprise from "./sections/ForEnterprise";
 
 export default function App() {
   const scroll = new LocomotiveScroll()
@@ -32,6 +33,7 @@ export default function App() {
     <FAQ/>
     <Email/>
     <CTA/>
+    <ForEnterprise/>
     <Footer/>
     </>
   )

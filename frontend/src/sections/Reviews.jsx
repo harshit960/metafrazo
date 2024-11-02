@@ -4,25 +4,25 @@ import ReviewCard from '../components/ReviewCard'
 function Reviews() {
     const scrollContainerRef = useRef(null);
 
-  // Scroll function to move left by 500px
-  const scrollLeft = () => {
-    if (scrollContainerRef.current) {
-        scrollContainerRef.current.scrollBy({
-          left: -724,
-          behavior: 'smooth' // Smooth scrolling
-        });
-      }
-  };
+    // Scroll function to move left by 500px
+    const scrollLeft = () => {
+        if (scrollContainerRef.current) {
+            scrollContainerRef.current.scrollBy({
+                left: -740,
+                behavior: 'smooth' // Smooth scrolling
+            });
+        }
+    };
 
-  // Scroll function to move right by 500px
-  const scrollRight = () => {
-    if (scrollContainerRef.current) {
-        scrollContainerRef.current.scrollBy({
-          left: 724,
-          behavior: 'smooth' // Smooth scrolling
-        });
-      }
-  };
+    // Scroll function to move right by 500px
+    const scrollRight = () => {
+        if (scrollContainerRef.current) {
+            scrollContainerRef.current.scrollBy({
+                left: 740,
+                behavior: 'smooth' // Smooth scrolling
+            });
+        }
+    };
 
     return (
         <>
@@ -40,7 +40,7 @@ function Reviews() {
                     <div className="flex space-x-4">
                         <div className="opacity-0 w-[362px]">
 
-                        <ReviewCard />
+                            <ReviewCard />
                         </div>
                         <ReviewCard />
                         <ReviewCard />
