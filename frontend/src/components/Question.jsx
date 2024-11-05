@@ -19,10 +19,10 @@ function Question(props) {
 
     return (
         <>
-            <div onClick={handleClick} className={"flex-col w-4/5 max-w-[1104px] bg-white hover:bg-[#97F3FA52]  rounded-[32px] flex items-center justify-between px-6 duration-200"}>
+            <div onClick={handleClick} className={"flex-col lg:w-4/5 w-11/12 max-w-[1104px] bg-white hover:bg-[#97F3FA52]  rounded-[32px] flex items-center justify-between px-6 duration-200"}>
                 <div className="flex items-center justify-between w-full h-[78px]">
 
-                    <div className="text-[20px] font-bold font-satoshi">{props.title}</div>
+                    <div className="lg:text-[20px] text-[14px] font-bold font-satoshi">{props.title}</div>
                     <button onClick={handleClick} className={rotation + " duration-200"}>
 
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

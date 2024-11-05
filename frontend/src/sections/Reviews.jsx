@@ -28,17 +28,17 @@ function Reviews() {
         <>
             <div className="bg-black w-full py-20 flex flex-col items-center justify-center text-white">
                 <img src="assets/Reviews.png" alt="" srcset="" className='w-[48px]' />
-                <div className="text-[56px] font-bold my-6 font-satoshi">
-                    Here’s what our users say
-                </div>
-                <div className="text-[20px] text-center font-satoshiMed">
+                <div className="lg:text-[56px] text-[32px] text-center px-12 font-bold my-6 font-satoshi">
+                Here’s what our users say about MetaFrazo
+                                </div>
+                <div className="lg:text-[20px] text-[14px] px-12 text-center font-satoshiMed">
                     Hear directly from our customers about how our platform has helped them save time, cut <br />
                     costs, and achieve accurate translations with ease.
                 </div>
-                <div ref={scrollContainerRef} className="w-full overflow-y-auto my-16 scrollbar-hide">
+                <div ref={scrollContainerRef} className="w-full overflow-y-auto my-16 mx-2 scrollbar-hide">
 
                     <div className="flex space-x-4">
-                        <div className="opacity-0 w-[362px]">
+                        <div className="opacity-0 w-[362px] hidden lg:block">
 
                             <ReviewCard />
                         </div>

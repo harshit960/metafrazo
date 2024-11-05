@@ -5,11 +5,11 @@ function Email() {
     return (
         <>
             <div className=" bg-[#F0F3F6] h-[757px] w-full flex flex-col items-center justify-center">
-                <div className="text-[56px] font-bold my-6 text-center leading-[67px] font-satoshi">Want to hear from us or need <br /> more info?</div>
-                <div className="text-[20px] text-center font-satoshiMed">
-                    Drop your email here, and we’ll get back to you with the latest <br /> updates and any help you need!
+                <div className="lg:text-[56px] text-[32px]  font-bold my-6 text-center lg:leading-[67px] leading-[42px] font-satoshi">Want to hear from us or need more info?</div>
+                <div className="lg:text-[20px] text-[14px] text-center font-satoshiMed px-12">
+                    Drop your email here, and we’ll get back to you with the latest updates and any help you need!
                 </div>
-                <div className="mt-16">
+                <div className="mt-16 w-full flex items-center justify-center">
 
                     <EmailBar />
                 </div>
