@@ -2,14 +2,14 @@ import React from 'react'
 
 function Footer() {
     return (
-        <>
-            <div className="bg-[#0E0E0C] rounded-t-3xl w-full flex p-48 pt-16 pb-0 font-satoshiMed text-white justify-between items-">
-                <div className="flex basis-1/3 flex-col space-y-6">
-                    <img src="assets/logo.png" alt="" className='w-[352px] ' />
-                    <div className="text-[14px] font-satoshiMed">
+        <><div className="bg-[#0E0E0C] rounded-t-3xl">
+            <div className=" flex-wrap  w-full flex p-12 lg:p-48 pt-16 pb-0 font-satoshiMed text-white justify-between items-">
+                <div className="flex  lg:basis-1/3 flex-col  space-y-6">
+                    <img src="assets/logo.png" alt="" className='w-[302px] items-center justify-center inline-flex ' />
+                    <div className="text-[14px] font-satoshiMed text-center lg:text-left">
                         Globalize your content with lip-sync, preserved original voices, and accurate on-screen text translation—faster and more cost-effectively than ever.
                     </div>
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-4 items-center justify-center lg:justify-start">
                         <div className="1"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25.2933 0.666202H2.70664C2.45275 0.662676 2.20064 0.709199 1.96473 0.803114C1.72882 0.897029 1.51371 1.0365 1.33171 1.21355C1.1497 1.39061 1.00435 1.60178 0.903966 1.83501C0.80358 2.06825 0.750121 2.31897 0.746643 2.57287V25.4262C0.750121 25.6801 0.80358 25.9308 0.903966 26.1641C1.00435 26.3973 1.1497 26.6085 1.33171 26.7855C1.51371 26.9626 1.72882 27.102 1.96473 27.196C2.20064 27.2899 2.45275 27.3364 2.70664 27.3329H25.2933C25.5472 27.3364 25.7993 27.2899 26.0352 27.196C26.2711 27.102 26.4862 26.9626 26.6682 26.7855C26.8503 26.6085 26.9956 26.3973 27.096 26.1641C27.1964 25.9308 27.2498 25.6801 27.2533 25.4262V2.57287C27.2498 2.31897 27.1964 2.06825 27.096 1.83501C26.9956 1.60178 26.8503 1.39061 26.6682 1.21355C26.4862 1.0365 26.2711 0.897029 26.0352 0.803114C25.7993 0.709199 25.5472 0.662676 25.2933 0.666202ZM8.78664 22.9862H4.78664V10.9862H8.78664V22.9862ZM6.78664 9.3062C6.23499 9.3062 5.70594 9.08706 5.31586 8.69698C4.92579 8.30691 4.70664 7.77785 4.70664 7.2262C4.70664 6.67455 4.92579 6.1455 5.31586 5.75542C5.70594 5.36534 6.23499 5.1462 6.78664 5.1462C7.07957 5.11298 7.37621 5.14201 7.65714 5.23138C7.93808 5.32075 8.19696 5.46846 8.41685 5.66482C8.63674 5.86118 8.81268 6.10177 8.93314 6.37084C9.0536 6.63992 9.11587 6.9314 9.11587 7.2262C9.11587 7.52101 9.0536 7.81249 8.93314 8.08156C8.81268 8.35063 8.63674 8.59122 8.41685 8.78759C8.19696 8.98395 7.93808 9.13165 7.65714 9.22102C7.37621 9.3104 7.07957 9.33942 6.78664 9.3062ZM23.2133 22.9862H19.2133V16.5462C19.2133 14.9329 18.64 13.8795 17.1866 13.8795C16.7369 13.8828 16.2989 14.0239 15.9318 14.2838C15.5646 14.5436 15.286 14.9098 15.1333 15.3329C15.029 15.6463 14.9838 15.9763 15 16.3062V22.9729H11C11 22.9729 11 12.0662 11 10.9729H15V12.6662C15.3634 12.0357 15.8919 11.5162 16.5286 11.1638C17.1653 10.8114 17.8861 10.6393 18.6133 10.6662C21.28 10.6662 23.2133 12.3862 23.2133 16.0795V22.9862Z" fill="white" />
                         </svg>
@@ -29,25 +29,26 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col  basis-1/3 space-y-6 text-right">
+                <div className="flex flex-col mt-12 lg:mt-0 basis-11/12 lg:basis-1/3 space-y-6 lg:text-right ">
                     <div className="text-[14px]">Home</div>
                     <div className="text-[14px]">About Us</div>
                     <div className="text-[14px]">Pricing</div>
                     <div className="text-[14px]">Contuct Us</div>
                 </div>
-                <div className="flex flex-col  basis-1/3 space-y-6 text-right">
+                <div className="flex flex-col  mt-6 lg:mt-0 lg:basis-1/3 space-y-6 lg:text-right">
                     <div className="text-[14px]">Privacy Policy</div>
                     <div className="text-[14px]">Terms of Use</div>
                     <div className="text-[14px]">Security</div>
 
                 </div>
             </div>
-            <div className='bg-[#0E0E0C] p-64 py-28 hidden lg:block'>
+            <div className=' p-6 lg:p-64 lg:py-28 '>
                 <img src="assets/Logos/BigLogo.png" alt="" srcset="" />
             </div>
-            <div className="w-full text-center font-satoshiMed bg-[#0E0E0C] text-white pb-16">
+            <div className="w-full py-6 text-center font-satoshiMed  text-white ">
                 Copyright © 2024 MetaFrazo
             </div>
+        </div>
         </>
     )
 }
