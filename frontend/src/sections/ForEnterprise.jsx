@@ -2,7 +2,7 @@ import React from 'react'
 
 function ForEnterprise() {
     return (
-        <div className=' flex-col flex w-full items-center justify-center font-satoshi my-16'>
+        <div className=' flex-col flex w-full items-center justify-center font-satoshi my-40'>
             <div style={{
                 backgroundImage: `url('assets/bgGradient.png')`,
                 backgroundSize: 'cover', // Adjusts the image to cover the entire div

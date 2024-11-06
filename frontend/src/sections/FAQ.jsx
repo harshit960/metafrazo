@@ -5,7 +5,7 @@ function FAQ() {
     return (
         <>
 
-            <div className="bg-[#F0F3F6] py-40 text-black flex flex-col items-center justify-center">
+            <div className="bg-[#F0F3F6] my-40 text-black flex flex-col items-center justify-center">
                 <img src="assets/FAQ.png" alt="" srcset="" className='w-[48px]' />
                 <div className="lg:text-[56px] text-[32px] font-bold my-6 font-satoshi text-center">Questions & Answers</div>
                 <div className="lg:text-[20px] text-[14px] text-center font-satoshiMed px-12">Find answers to common questions about MetaFrazo. We’ve got you covered on everything <br /> from how the platform works to tips for getting the best results.</div>

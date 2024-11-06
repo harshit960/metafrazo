@@ -18,11 +18,11 @@ function Benefits() {
 
                 <img src="assets\Benifits.png" alt="" srcset="" className='w-[48px] ' />
                 <div className="text-[40px] font-bold my-6 font-satoshi text-white">Benefits</div>
-                <div className="text-[20px] text-center font-satoshiMed text-white">
+                <div className="text-[20px] text-center font-satoshiMed text-white px-12">
                     Our intuitive platform makes it easy for anyone to create multilingual content, helping you <br />
                     connect with audiences around the world like never before.
                 </div>
-                <div className=" flex flex-wrap justify-center mt-16 my-[64px] space-y-3 lg:space-y-3 space-x-3 mx-6">
+                <div className=" flex flex-wrap justify-center mt-16 my-[64px] space-y-6 lg:space-y-3 lg:space-x-3  mx-6">
                     <div className="lg:w-[540px] w-[352px] h-[408px] bg-white rounded-[32px] mt-3">
                         <div className="flex flex-col justify-between items-center h-full p-8">
                             <div className="text-[24px] font-bold font-satoshi">Time-Saving</div>
@@ -39,7 +39,7 @@ function Benefits() {
                             <div className="text-[18px] text-center font-satoshiMed">Expand your audience by making content accessible in multiple languages.</div>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-3">
+                    <div className="flex flex-col space-y-6 lg:space-y-3">
 
                         <div className="lg:w-[540px] w-[352px] h-[408px] bg-white rounded-[32px] ">
                             <div className="flex flex-col justify-between items-center h-full p-8">
@@ -58,7 +58,7 @@ function Benefits() {
                         </div>
                     </div>
 
-                    <div className="lg:w-[550px]  w-[352px] h-[608px] lg:h-[820px] bg-white rounded-[32px] mb-3">
+                    <div className="lg:w-[550px]  w-[352px] h-[608px] lg:h-[832px] bg-white rounded-[32px] mb-3">
                         <div className="flex flex-col justify-between items-center h-full p-8">
                             <div className="text-[24px] font-bold font-satoshi">Create your own plan</div>
                             <img src="assets/CreateYourOwnPlan.png" alt="" srcset="" className='' />
