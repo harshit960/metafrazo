@@ -3,11 +3,11 @@ import React from 'react'
 function Tesimonials_Card(props) {
     return (
         <>
-            <div className="flex flex-col  bg-white p-8 rounded-[32px] w-[352px] h-[167px] justify-between">
+            <div className="flex flex-col  bg-white p-8 pb-9 rounded-[32px]  h-[167px] justify-between">
                 <div className="text-[40px] font-bold text-[#0A47F2] font-satoshi">
                     {props.percentage}
                 </div>
-                <div className="text-[18px] font-satoshiMed">
+                <div className="text-[18px] font-satoshiMed whitespace-nowrap">
                     {props.text}
                 </div>
             </div>

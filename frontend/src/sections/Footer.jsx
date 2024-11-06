@@ -30,22 +30,22 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex flex-col mt-12 lg:mt-0 basis-11/12 lg:basis-1/3 space-y-6 lg:text-right ">
-                    <div className="text-[14px]">Home</div>
-                    <div className="text-[14px]">About Us</div>
-                    <div className="text-[14px]">Pricing</div>
-                    <div className="text-[14px]">Contuct Us</div>
+                    <div className="text-[14px] lg:text-[18px]">Home</div>
+                    <div className="text-[14px] lg:text-[18px]">About Us</div>
+                    <div className="text-[14px] lg:text-[18px]">Pricing</div>
+                    <div className="text-[14px] lg:text-[18px]">Contuct Us</div>
                 </div>
                 <div className="flex flex-col  mt-6 lg:mt-0 lg:basis-1/3 space-y-6 lg:text-right">
-                    <div className="text-[14px]">Privacy Policy</div>
-                    <div className="text-[14px]">Terms of Use</div>
-                    <div className="text-[14px]">Security</div>
+                    <div className="text-[14px] lg:text-[18px]">Privacy Policy</div>
+                    <div className="text-[14px] lg:text-[18px]">Terms of Use</div>
+                    <div className="text-[14px] lg:text-[18px]">Security</div>
 
                 </div>
             </div>
-            <div className=' p-6 lg:p-64 lg:py-28 '>
+            <div className=' p-6 lg:px-64 lg:pt-12 '>
                 <img src="assets/Logos/BigLogo.png" alt="" srcset="" />
             </div>
-            <div className="w-full py-6 text-center font-satoshiMed  text-white ">
+            <div className="w-full py-6 text-[14px] text-center font-satoshiMed  text-white ">
                 Copyright © 2024 MetaFrazo
             </div>
         </div>

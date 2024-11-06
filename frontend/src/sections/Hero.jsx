@@ -14,7 +14,7 @@ function Hero() {
                         AI Dubbing and Translation <br />
                         for <span className='text-[#0A47F2] '>Educators</span>
                     </div>
-                    <div className="font-satoshiMed lg:text-[20px] text-[14px] lg:leading-[30px] font-normal pt-[24px]">
+                    <div className="font-satoshiMed lg:text-[20px] text-[14px] px-12 lg:leading-[30px] font-normal pt-[24px]">
                         Globalize your content with lip-sync, preserved original voices, and accurate <br /> on-screen text translation—faster and more cost-effectively than ever
                     </div>
                     <div className="mt-[14px]">
