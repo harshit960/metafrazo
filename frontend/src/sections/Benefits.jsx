@@ -4,10 +4,17 @@ import CTAWideBtn from '../components/CTAWideBtn'
 function Benefits() {
     return (
         <>
-            <div className="flex justify-center max-w-full items-center flex-col py-40 overflow-clip">
+            <div 
+            style={{
+                backgroundImage: `url('assets/Union.png')`,
+                backgroundSize: 'cover', // Adjusts the image to cover the entire div
+                backgroundPosition: 'center', // Centers the background image
+                backgroundRepeat: 'no-repeat', // Prevents the image from repeating
+            }}
+            className="flex justify-center max-w-full items-center flex-col py-40 overflow-clip">
 
 
-                <img src="assets/Union.png" alt="" srcset="" className='absolute w-full -translate-y-[1400px] scale-y-150  -z-10 mt-96' />
+                {/* <img src="assets/Union.png" alt="" srcset="" className='absolute w-full -translate-y-[1400px] scale-y-150  -z-10 mt-96' /> */}
 
                 <img src="assets\Benifits.png" alt="" srcset="" className='w-[48px] ' />
                 <div className="text-[40px] font-bold my-6 font-satoshi text-white">Benefits</div>
