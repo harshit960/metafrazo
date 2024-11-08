@@ -2,11 +2,11 @@ import React from 'react'
 
 function NavBar() {
     const navItems = [
-        {title:'Products',href:'#',className:"text-[#0A47F2] font-satoshi "},
-        {title:'Features',href:'#',className:"text-[#] font-satoshiMed "},
-        {title:'Benefits',href:'#',className:"text-[#] font-satoshiMed "},
-        {title:'Pricing',href:'#',className:"text-[#] font-satoshiMed "},
-        {title:'Contact Us',href:'#',className:"text-[#] font-satoshiMed "},
+        {title:'Products',href:'#products',className:"text-[#0A47F2] font-satoshi "},
+        {title:'Features',href:'#features',className:"text-[#] font-satoshiMed "},
+        {title:'Benefits',href:'#benefits',className:"text-[#] font-satoshiMed "},
+        // {title:'Pricing',href:'#',className:"text-[#] font-satoshiMed "},
+        {title:'Contact Us',href:'#email',className:"text-[#] font-satoshiMed "},
 
     ]
     return (
@@ -17,13 +17,13 @@ function NavBar() {
                 </div>
                 <div className="lg:flex hidden flex-grow justify-center">
                     {navItems.map((item,index)=>(
-                        <a key={index} className={item.className + " mx-4 text-sm font-medium"}>{item.title}</a>
+                        <a key={index} href={item.href} className={item.className + " mx-4  text-sm font-medium"}>{item.title}</a>
                     ))}
 
                 </div>
                 <div className="flex justify-center items-center">
-                    <div className="lg:text-sm text-[12px] font-medium mx-2 font-satoshiMed">Login</div>
-                    <div className="lg:text-sm text-[12px] whitespace-nowrap font-medium mx-2 font-satoshi bg-[#0A47F2] text-white px-[25px] py-[10px] rounded-full">Sign Up</div>
+                    {/* <div className="lg:text-sm text-[12px] font-medium mx-2 font-satoshiMed">Login</div>
+                    <div className="lg:text-sm text-[12px] whitespace-nowrap font-medium mx-2 font-satoshi bg-[#0A47F2] text-white px-[25px] py-[10px] rounded-full">Sign Up</div> */}
                 </div>
             </div>
         </>

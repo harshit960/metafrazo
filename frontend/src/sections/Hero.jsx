@@ -6,7 +6,7 @@ import "../App.css"
 function Hero() {
     return (
         <>
-            <div className=" w-full   flex flex-col items-center pb-[110px] lg:py-[32px] py-[12px] overflow-hidden space-y-[110px]">
+            <div id='product' className=" w-full   flex flex-col items-center pb-[110px] lg:py-[32px] py-[12px] overflow-hidden space-y-[110px]">
                 <NavBar />
 
                 <div className=" text-center self-center justify-self-center my-auto z-10 w-full">
@@ -20,7 +20,7 @@ function Hero() {
                     <div className="mt-[14px]">
                         <CTABtn />
                         <div className="font-satoshiMed text-[16px] mt-2">
-                            Learn More
+                        MetaFrazo v2
                         </div>
                     </div>
                 </div>

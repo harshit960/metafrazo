@@ -42,11 +42,13 @@ function Reviews() {
 
                             <ReviewCard />
                         </div>
-                        <ReviewCard />
-                        <ReviewCard />
-                        <ReviewCard />
-                        <ReviewCard />
-                        <ReviewCard />
+                        <ReviewCard name="Phillip Nielsen" img="" position="Co-Fonder of Oriani"  review="We were impressed by the sophisticated and advanced AI application and the authentical translation & dubbing of the videos, especially the lip synchronization and screen text translation."/>
+                        <ReviewCard name="Chris Webb" img="" position="Personal Development Coach"  review="MetaFrazo’s technology is unlike anything else. We’ve reached audiences we never thought possible, all without sacrificing quality or accuracy."/>
+                        <ReviewCard name="Teck Language Solutions" img="" position="CRO"  review="Their AI-powered translation saved us hours of editing while maintaining the authenticity of our original videos. It’s the most reliable tool we’ve found for multilingual content."/>
+                        <ReviewCard name="Katie Simpson" img="" position="Illinois Department of Commerce Senior Manager"  review="This is a problem that you have created a great solution for. Many industries you can diversify to that need this service."/>
+                        <ReviewCard name="CITL + Teaching and Learning Team" img="" position="University of Illinois GEIS College of Business"  review="MetaFrazo has a great product that allows educational content to be repurposed at high quality, personalized audio, and the text-on screen translation is great"/>
+                        {/* <ReviewCard name="" img="" position=""  review=""/> */}
+                        
                     </div>
                 </div>
                 <div className="flex items-center justify-center space-x-4">

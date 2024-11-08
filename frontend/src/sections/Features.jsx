@@ -3,7 +3,7 @@ import React from 'react'
 function Features() {
     return (
         <>
-            <div className="w-full my-40 flex bg-[#F0F3F6] flex-col justify-center items-center py-16 text-center">
+            <div id='features' className="w-full my-40 flex bg-[#F0F3F6] flex-col justify-center items-center py-16 text-center">
                 <img src="assets/Crown.png" alt="" srcset="" className='w-[48px]' />
                 <img src="assets/WithMF.png" alt="" srcset="" className='w-[322px] my-[24px]' />
                 <div className="lg:text-[20px] px-12 text-[14px] font-satoshiMed text-center">

@@ -4,7 +4,7 @@ import CTAWideBtn from '../components/CTAWideBtn'
 function Benefits() {
     return (
         <>
-            <div 
+            <div id='benefits' 
             style={{
                 backgroundImage: `url('assets/Union.png')`,
                 backgroundSize: 'cover', // Adjusts the image to cover the entire div

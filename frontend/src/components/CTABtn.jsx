@@ -3,11 +3,12 @@ import "../App.css"
 function CTABtn() {
     return (
         <>
+        <a href="https://dh4ftmjzfzn.typeform.com/to/XuzeNABu">
             <button 
             className=" button font-satoshi text-[18px] font-bold text-[#fff] py-[10px] px-[25px] duration-200 mt-[30px] ">
                 
-                Try for free
-                </button>
+                JOIN WAITLIST
+                </button></a>
 
         </>
         )

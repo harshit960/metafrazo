@@ -32,7 +32,10 @@ function Question(props) {
                     </button>
                 </div>
                 <div className={height + " w-full duration-200"}>
+                    <div className="text-[20px]">
+                        {props.content}
 
+                    </div>
                 </div>
 
             </div>
