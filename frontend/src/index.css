@@ -145,7 +145,7 @@ box-shadow: 5px 5px 12px 10px rgba(138, 136, 255, 0.2),
 
 
 }
-
+/* 
 .button:focus {
   transition-duration: 200ms;
 
@@ -154,10 +154,9 @@ box-shadow: 5px 5px 12px 10px rgba(138, 136, 255, 0.2),
   
   /* identical to box height, or 27px */
   
-  background: radial-gradient(115.71% 368.4% at 50% 50%, #D763FF 0%, rgba(10, 71, 242, 0) 100%), #FFFFFF;
+  /* background: radial-gradient(115.71% 368.4% at 50% 50%, #D763FF 0%, rgba(10, 71, 242, 0) 100%), #FFFFFF; */
   /* -webkit-background-clip: text; */
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  /* background-clip: text; */
   /* text-fill-color: transparent; */
   /* background: radial-gradient(50% 50% at 50% 50%, #D763FF 0%, rgba(10, 71, 242, 0) 100%), #FFFFFF; */
-}
