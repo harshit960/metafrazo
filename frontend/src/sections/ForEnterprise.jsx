@@ -17,9 +17,12 @@ function ForEnterprise() {
                     <div className="text-6xl font-bold text-center text-white">MetaFrazo for Enterprise</div>
                     <div className="text-[20px] px-3 font-medium font-satoshi text-white text-center">MetaFrazo for Enterprise provides you with 99% accurate translational model and up to 10 requests</div>
                 </div>
+                <a href="https://dh4ftmjzfzn.typeform.com/to/XuzeNABu">
+
                 <div className="flex font-satoshi bg-white w-[144px] h-[51px] rounded-full items-center justify-center">
                     Contact Us
                 </div>
+                </a>
             </div>
         </div>
     )
