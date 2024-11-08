@@ -22,10 +22,10 @@ function NavBar() {
 
                 </div>
                 <div className="flex justify-center items-center">
-                    <a href="https://dh4ftmjzfzn.typeform.com/to/XuzeNABu">
+                    <a href="https://dh4ftmjzfzn.typeform.com/to/XuzeNABu" target="_blank">
                         <div className="lg:text-sm text-[12px] font-medium mx-2 font-satoshiMed">JOIN WAITLIST</div>
                     </a>
-                    <a href="https://dh4ftmjzfzn.typeform.com/to/XuzeNABu">
+                    <a href="https://dh4ftmjzfzn.typeform.com/to/XuzeNABu" target="_blank">
                         <div className="lg:text-sm text-[12px] whitespace-nowrap font-medium mx-2 font-satoshi bg-[#0A47F2] text-white px-[25px] py-[10px] rounded-full">Sign Up</div>
                     </a>
                 </div>
