@@ -4,7 +4,7 @@ function ReviewCard(props) {
     return (
         <>
             <div className="flex-none w-11/12 lg:w-[724px] h-[487px] bg-white rounded-[32px] flex flex-col justify-around p-16 text-black">
-                <img src={props.img} alt="" srcset="" className='w-[150px]' />
+                <img src="assets/stars.png" alt="" srcset="" className='w-[150px]' />
                 <div className="text-[20px] font-satoshiMed">
                     {props.review}
                 </div>
