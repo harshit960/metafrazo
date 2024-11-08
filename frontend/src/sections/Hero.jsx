@@ -12,7 +12,7 @@ function Hero() {
                 <div className=" text-center self-center justify-self-center my-auto z-10 w-full">
                     <div className="font-satoshi lg:text-[56px] text-[40px] lg:leading-[67px] leading-[48px] font-bold">
                         AI Dubbing and Translation <br />
-                        for <span className='text-[#0A47F2] '>Educators</span>
+                        for <span className='text-[#0A47F2] '>Media</span>
                     </div>
                     <div className="font-satoshiMed lg:text-[20px] text-[14px] px-12 lg:leading-[30px] font-normal pt-[24px]">
                         Globalize your content with lip-sync, preserved original voices, and accurate <br /> on-screen text translation—faster and more cost-effectively than ever

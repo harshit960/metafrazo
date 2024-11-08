@@ -33,10 +33,10 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex flex-col mt-12 lg:mt-0 basis-11/12 lg:basis-1/3 space-y-6 lg:text-right ">
-                    <div className="text-[14px] lg:text-[18px]">Home</div>
-                    <div className="text-[14px] lg:text-[18px]">About Us</div>
+                    <a href='#' className="text-[14px] lg:text-[18px]">Home</a>
+                    <a href='#email' className="text-[14px] lg:text-[18px]">About Us</a>
                     <div className="text-[14px] lg:text-[18px]">Pricing</div>
-                    <div className="text-[14px] lg:text-[18px]">Contact Us</div>
+                    <a href='#email' className="text-[14px] lg:text-[18px]">Contact Us</a>
                 </div>
                 <div className="flex flex-col  mt-6 lg:mt-0 lg:basis-1/3 space-y-6 lg:text-right">
                     <div className="text-[14px] lg:text-[18px]">Privacy Policy</div>
